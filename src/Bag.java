@@ -1,8 +1,4 @@
-import java.awt.event.ItemEvent;
 import java.util.Iterator;
-import java.util.ListIterator;
-
-import com.sun.org.apache.bcel.internal.generic.RETURN;
 
 public class Bag<Item> implements Iterator<Item>{
 	private Node first;
@@ -32,5 +28,15 @@ public class Bag<Item> implements Iterator<Item>{
 			current = current.next;
 			return item;
 		}
+	}
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public Item next() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

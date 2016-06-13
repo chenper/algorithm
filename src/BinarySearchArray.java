@@ -1,4 +1,4 @@
-public class BinarySearchArray<Key extends Comparable<key>, Value> {
+public class BinarySearchArray<Key extends Comparable<Key>, Value> {
 	private Key[] keys;
 	private Value[] vals;
 	private int N;
